@@ -1,7 +1,7 @@
 function sum(a, b) {
     return a + b;
 }
-function make(...arguments) {
+module.exports = function make(...arguments) {
     const arrOfArgs = [];
     arrOfArgs.push(...arguments);
     return function result (...args) {
@@ -11,5 +11,5 @@ function make(...arguments) {
         }
         arrOfArgs.push(...args);
         return result;
-    };
+    }
 }
