@@ -1,0 +1,25 @@
+{
+  "name": "codejam-3",
+  "version": "1.0.0",
+  "description": "RS School Codejam-3",
+  "main": "sumOfOther.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lesechka/rsschool-codejam.git"
+  },
+  "keywords": [
+    "programm13"
+  ],
+  "author": "Alesia Bandarenka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lesechka/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/Lesechka/rsschool-codejam#readme"
+}
